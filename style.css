@@ -1,0 +1,129 @@
+html{
+	font-size: 16px;
+	font-family: monospace;
+}
+
+body{
+	text-align: center;
+	background-color: aliceblue;
+}
+
+body, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color:  hotpink;
+}
+
+a:hover{
+	color: blue;
+}
+
+#header {
+	height: 200px;
+	background-image: url(images/banner.jpg);
+	background-position: center;
+	text-align: center;
+}
+
+.title{
+	background-color: rgba(230, 248, 255, 0.9);
+	display: inline-block;
+	padding: 10px;
+	margin: 40px;
+
+}
+
+.title ul{
+	display: flex;
+	justify-content: center;
+}
+
+.title ul li{
+	display: inline-block;
+	margin: 10px;
+}
+
+
+#main{
+	display: inline-block;
+	text-align: left;
+}
+
+.section{
+	display: flex;
+	margin: 20px;
+	filter: drop-shadow(1px 1px 2px grey);
+	background-color: aliceblue;
+	width: 700px;
+}
+
+.section img{
+	width: 200px;
+}
+
+.section:hover{
+	background-color: lightpink;
+}
+
+.desc{
+	padding: 20px;
+}
+
+.desc h3{
+	font-size: 2rem;
+}
+
+.desc h5{
+	font-size: 1.2rem;
+	margin-top: 10px;
+}
+
+.video {
+	filter: drop-shadow(1px 1px 2px grey);
+	margin: 20px;
+	width: 700px;
+	background-color: aliceblue;
+	text-align: center;
+}
+
+.video:hover{
+	background-color: lightpink;
+}
+
+.video h3{
+	font-size: 20px;
+	height: 50px;
+	position: relative;
+	top: 10px;
+}
+
+#footer{
+	position: fixed; /* sticky */
+	bottom: 0;
+	width: 100%;
+	background-color: skyblue;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
