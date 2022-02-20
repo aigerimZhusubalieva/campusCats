@@ -16,7 +16,7 @@ function catEmoji(){
 		catEmoji1.style.display = "none";
 		catEmoji2.style.display = "none";
 	}
-}
+};
 
 //Changing the Cursor
 var cursor = document.getElementById('cursor');
