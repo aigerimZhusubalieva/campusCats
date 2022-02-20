@@ -5,6 +5,7 @@
         <title>Campus Cats</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
@@ -12,10 +13,12 @@
             <div class='title'>
                 <h1>Meet the Campus Cats! &#128008;</h1>
                 <ul>
-                    <li><a href ="#">meow</a></li>
-                    <li><a href ="#">meow</a></li>
-                    <li><a href ="#">meow</a></li>
-                    <li><a href ="#">meow</a></li>
+                    <li id = 'catEmoji1'>&#128049;</li>
+                    <li id = "l1"><button onclick="catEmoji()">meow</button></li>
+                    <li id = "l1"><button onclick="catEmoji()">meow</button></li>
+                    <li id = "l1"><button onclick="catEmoji()">meow</button></li>
+                    <li id = "l1"><button onclick="catEmoji()">meow</button></li>
+                    <li id = 'catEmoji2'>&#128049;</li>
                 </ul>
             </div>
         </div>
@@ -69,7 +72,14 @@
                 copyright 2022 comlab
             </div>
         </div>
-
+        <div id = 'popup'>
+            <div>
+                <h1>Hey, good to see you here!</h1>
+                <p id = 'popupClose'>X</p>
+            </div>
+        </div>
+        <div id = "cursor"></div>
+        <div id = "cursor2"></div>
     </body>
 
 </html>
